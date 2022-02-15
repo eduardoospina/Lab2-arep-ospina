@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class primerpunto {
     public static void main(String[] args) throws Exception {
 
-        URL url = new URL("https://www.escuelaing.edu.co:80/es?resource=ofertas/");
+        URL url = new URL("https://www.escuelaing.edu.co:80/es?resource=carreras/?id=892#iniciar");
         System.out.println("URL: " + url.getProtocol());
         System.out.println("Authority: " + url.getAuthority());
         System.out.println("Host: " + url.getHost());
