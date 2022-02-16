@@ -1,14 +1,11 @@
-package URLH;
+package edu.escuelaing.arep.Ejercicios;
 
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLConnection;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-public class punto2 {
+public class Ejercicio2 {
 
     public static void main(String[] args) {
         try {

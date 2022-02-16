@@ -1,7 +1,8 @@
-package edu.escuelaing.arep;
+package edu.escuelaing.arep.Retos.Reto2;
 
 import java.net.*;
 import java.io.*;
+import java.util.*;
 
 public class HttpServer {
 
@@ -28,8 +29,7 @@ public class HttpServer {
 
             PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true); //Flujo de salida
             BufferedReader in = new BufferedReader( //Flujo de entrada
-                    new InputStreamReader(
-                            clientSocket.getInputStream()));
+                    new InputStreamReader(clientSocket.getInputStream()));
             String inputLine, outputLine;
 
             while ((inputLine = in.readLine()) != null) {
