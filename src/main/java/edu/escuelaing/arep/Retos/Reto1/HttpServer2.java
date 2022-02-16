@@ -1,4 +1,4 @@
-package edu.escuelaing.arep.Retos.Reto2;
+package edu.escuelaing.arep.Retos.Reto1;
 
 import java.net.*;
 import java.io.*;
@@ -8,7 +8,7 @@ import java.util.*;
  * clase para generar un servidor http.
  * @author eduardo ospina
  */
-public class HttpServer {
+public class HttpServer2 {
     private ServerSocket serverSocket;
     private Socket clientSocket;
 

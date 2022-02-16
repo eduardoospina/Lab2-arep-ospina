@@ -65,15 +65,17 @@ servidor para probar su solución. Despliegue su solución en Heroku.
 
 ### Desplegando localmente.
 
-1) Se clona el repositorio que contiene todos los ejercicios y retos. 
+1) clonar el repositorio, ya se a traves de cmd o de GIT: que contiene todos los ejercicios y retos. 
 
 ![](https://i.postimg.cc/y8bvJz4v/Capture1.png)
 
-2) Se realiza un clean y package: 
+2) ingresamos al proyecto clonado y desde cmd hacer uso de mvn para clean y package:
 
 ![](https://i.postimg.cc/G34Y2shw/Capture3.png)
 
 ![](https://i.postimg.cc/pdV5tm1S/Capture4.png)
+
+![](https://i.postimg.cc/y8gjpqNh/Capture5.png)
 
 3) Dependiendo de la parte que se quiere ejecutar, siendo los main de ejercicios 1 y 2, el cliente y servidor del 
    ejercicio 3 o los main dentro de reto 1 y 2: 
@@ -81,6 +83,10 @@ servidor para probar su solución. Despliegue su solución en Heroku.
 ![](https://i.postimg.cc/QxBB8LmX/Capture2.png)
 
 4) se ejecutan ya sea pro comandos de consola o directamente desde al IDE que corra cad auno de los programas:
+
+```maven
+mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.SparkWebApp"
+```
 
 ![](https://i.postimg.cc/hvY1X9Nh/Capture5.png)
 
