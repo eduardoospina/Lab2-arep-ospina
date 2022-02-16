@@ -24,6 +24,7 @@ public class HttpServer {
             System.err.println("Could not listen on port: 35000.");
             System.exit(1);
         }
+        
 
         Socket clientSocket = null; //Cliente socket
         while (running) {
