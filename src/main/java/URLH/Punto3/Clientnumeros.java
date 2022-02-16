@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package edu.escuelaing.arep;
+package URLH.Punto3;
 
 /**
  *
@@ -11,7 +11,7 @@ package edu.escuelaing.arep;
 import java.io.*;
 import java.net.*;
 
-public class EchoClient {
+public class Clientnumeros {
     public static void main(String[] args) throws IOException {
         Socket echoSocket = null; //Socket
         PrintWriter out = null; //Para la salida
@@ -35,6 +35,9 @@ public class EchoClient {
         while ((userInput = stdIn.readLine()) != null) {
             out.println(userInput);
             System.out.println("echo: " + in.readLine());
+            if(userInput.equals("-1")){
+                break;
+            }
         } //Se lee línea por línea lo del socket
         //Servidor que todo lo que lleve lo retorna exactamente igual
         out.close();

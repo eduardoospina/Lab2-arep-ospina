@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package edu.escuelaing.arep;
+package URLH.Punto3;
 
 import java.net.*;
 import java.io.*;
 
-public class EchoServer {
+public class Servernumeros {
 
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = null;
@@ -25,17 +25,16 @@ public class EchoServer {
             System.exit(1);
         }
         PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-        BufferedReader in = new BufferedReader(
-                new InputStreamReader(
-                        clientSocket.getInputStream()));
-        String inputLine, outputLine; //Input lo que llega
-        while ((inputLine = in.readLine()) != null) {
+        BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+        Double inputLine, outputLine; //Input lo que llega
+        while ((inputLine = Double.valueOf(Integer.valueOf(in.readLine()))) != null) {
             System.out.println( "Mensaje:   " + inputLine);
-            outputLine = "Respuesta: " + inputLine; //Lo que debe mandar
-            out.println(outputLine); //Salida
-            if (outputLine.equals("Respuesta: Bye.")) {
+            outputLine = inputLine * inputLine; //Lo que debe mandar
+            out.println("Cuadrado = " + outputLine); //Salida
+            if (inputLine == -1) {
                 break;
             }
+
         }
         out.close();
         in.close();
