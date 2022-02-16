@@ -4,14 +4,22 @@ import java.net.*;
 import java.io.*;
 import java.util.*;
 
+/**
+ * clase para generar un servidor http.
+ * @author eduardo ospina
+ */
 public class HttpServer {
 
+    /**
+     * metodo main de la clase que hace manejo de los sockets y la informacion necesaria para montar un servidor web de manera local
+     * @param args Array de string
+     */
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = null;
         boolean running = true;
 
         try {
-            serverSocket = new ServerSocket(35000); //sOCKET DE SERVIDOR, PUERTO 35000
+            serverSocket = new ServerSocket(35001); //sOCKET DE SERVIDOR, PUERTO 35000
         } catch (IOException e) {
             System.err.println("Could not listen on port: 35000.");
             System.exit(1);

@@ -7,8 +7,16 @@ package edu.escuelaing.arep.Ejercicios.Ejercicio3;
 import java.net.*;
 import java.io.*;
 
+/**
+ * clase responsable de crear el servidor encragado de recibir el numero y retornarle al cliente el numero elevado al cuadrado.
+ * @author eduardo.ospina
+ */
 public class Servernumeros {
 
+    /**
+     * metodo que maneja la creacion del servido que este ne constant espera de qu el cliente mande el numero para calcula el elevdao al cuadrado y le regresa este valor al cliente. temrina cuando el cliente le ingresa un -1
+     * @param args Array de String.
+     */
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = null;
         try {

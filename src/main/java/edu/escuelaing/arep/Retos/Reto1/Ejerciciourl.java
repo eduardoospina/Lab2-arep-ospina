@@ -11,8 +11,16 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
+/**
+ * clase que se encarga a partir de una url genera una cponceccion y retorna en consola todos los elementos html de la apgina deseada, prime rpazo en la implementacion completa del ejercicio.
+ * @author eduardo ospina
+ */
 public class Ejerciciourl {
 
+    /**
+     * metodo main que a paritr de una url en especifica, genera una conecion a esta url y obtine los datos de tml de la web. y las imprime e conosla 1 a 1 como se pide para el ejercicio.
+     * @param  args Array de String.
+     */
     public static void main(String[] args) throws Exception {
         while(true) {
             try {
@@ -52,6 +60,10 @@ public class Ejerciciourl {
         }
     }
 
+    /**
+     * metodo que maneja la lectura de un url y lo retorna como url para que el prpograma main lo pueda leer.
+     * @return url deseada que ingresa el usuario.
+     */
     private static URL AsignarURL() throws MalformedURLException {
         Scanner Entrada = new Scanner(System.in);
         String URLaCopiar = Entrada.nextLine();

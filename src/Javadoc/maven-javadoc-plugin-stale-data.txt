@@ -1,0 +1,60 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'1.7'
+-sourcepath
+'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'WebServer Maven Webapp 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'WebServer Maven Webapp 1.0-SNAPSHOT API'
+edu.escuelaing.arep
+edu.escuelaing.arep.Ejercicios
+edu.escuelaing.arep.Ejercicios.Ejercicio3
+edu.escuelaing.arep.Retos.Reto1
+edu.escuelaing.arep.Retos.Reto2
+'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/src/main/java/edu/escuelaing/arep/App.java'
+'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/src/main/java/edu/escuelaing/arep/Ejercicios/Ejercicio1.java'
+'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/src/main/java/edu/escuelaing/arep/Ejercicios/Ejercicio2.java'
+'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/src/main/java/edu/escuelaing/arep/Ejercicios/Ejercicio3/Clientnumeros.java'
+'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/src/main/java/edu/escuelaing/arep/Ejercicios/Ejercicio3/Servernumeros.java'
+'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/src/main/java/edu/escuelaing/arep/Retos/Reto1/Ejerciciourl.java'
+'C:/Users/eduardo.ospina.LABINFO/Documents/lab2 arep/Lab2-arep-ospina/src/main/java/edu/escuelaing/arep/Retos/Reto2/HttpServer.java'
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\src\main\java = 1645014392786
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\allclasses-index.html = 1645017926471
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\allclasses.html = 1645017926487
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\allpackages-index.html = 1645017926471
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\constant-values.html = 1645017926315
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\deprecated-list.html = 1645017926471
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\element-list = 1645017926233
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\help-doc.html = 1645017926503
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\index-all.html = 1645017926456
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\index.html = 1645017926487
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\member-search-index.js = 1645017926456
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\member-search-index.zip = 1645017926456
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\overview-summary.html = 1645017926503
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\overview-tree.html = 1645017926378
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\package-search-index.js = 1645017926393
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\package-search-index.zip = 1645017926440
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\script.js = 1645017926534
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\search.js = 1645017926534
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\stylesheet.css = 1645017926534
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\type-search-index.js = 1645017926440
+C:\Users\eduardo.ospina.LABINFO\Documents\lab2 arep\Lab2-arep-ospina\target\site\apidocs\type-search-index.zip = 1645017926440

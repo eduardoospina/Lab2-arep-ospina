@@ -10,8 +10,15 @@ package edu.escuelaing.arep.Ejercicios.Ejercicio3;
  */
 import java.io.*;
 import java.net.*;
-
+/**
+ * clase que es remposamble de crear el cliente de lo snumero snecaragdo de mandar al servidor el numero que desea elevado.
+ * @author eduardo.ospina
+ */
 public class Clientnumeros {
+    /**
+     * metodo main que se encarga de crear los sockets del cliente y los elementos para su lectura y escrita de manera que se pueda conectar al al servidor de numero para que este le responda. termina si el usuario digita el numeor -1
+     * @param args Array de string
+     */
     public static void main(String[] args) throws IOException {
         Socket echoSocket = null; //Socket
         PrintWriter out = null; //Para la salida

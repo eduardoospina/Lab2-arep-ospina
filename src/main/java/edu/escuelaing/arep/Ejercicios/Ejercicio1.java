@@ -1,7 +1,16 @@
 package edu.escuelaing.arep.Ejercicios;
 import java.net.*;
 
+/**
+ * Clase de Primer ejercicio que busca tomar un url y retornar la informaicon relacionada a este
+ * @author Eduardo Ospina
+ */
 public class Ejercicio1 {
+
+    /**
+     * metodo main que recibe una URL e imprime la informacion deseada.
+     * @param args Array de String.
+     */
     public static void main(String[] args) throws Exception {
 
         URL url = new URL("https://www.escuelaing.edu.co:80/es?resource=carreras/?id=892#iniciar");

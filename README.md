@@ -72,6 +72,7 @@ servidor para probar su solución. Despliegue su solución en Heroku.
 2) Se realiza un clean y package: 
 
 ![](https://i.postimg.cc/G34Y2shw/Capture3.png)
+
 ![](https://i.postimg.cc/pdV5tm1S/Capture4.png)
 
 3) Dependiendo de la parte que se quiere ejecutar, siendo los main de ejercicios 1 y 2, el cliente y servidor del 
@@ -92,17 +93,54 @@ servidor para probar su solución. Despliegue su solución en Heroku.
 3)   [Git](https://git-scm.com/downloads)
 4)   IDE de java.
 
-### Desplegando de forma remota.
+### Soluciones.
+
+#### Ejercicio 1: 
+
+![](https://i.postimg.cc/GpQmBkqb/capture1.png)
+
+#### Ejercicio 2: 
+
+![](https://i.postimg.cc/2yqkXgm5/Capture2.png)
+
+![](https://i.postimg.cc/SRwS0VNf/Capture3.png)
+
+#### Ejercicio 3: 
+
+![](https://i.postimg.cc/L614kdNC/Capture4.png)
+
+![](https://i.postimg.cc/Z5PTg8k6/Capture5.png)
+
+#### RETO 1: 
+
+![](https://i.postimg.cc/0NcJgRgG/Capture6.png)
+
+#### RETO 2: 
+
+![](https://i.postimg.cc/zBvH8t5s/Capture7.png)
 
 
 ### Arquitectura implementada
 
+La arquitectura que se implemento a lo largo de este taller es la arquitectura de Cliente-servidor. Ya que seguimos la manera de operar constante a traves de todos los 
+ejercicios. en donde existe un cliente que hace peticiones a el serivdor, y este dependiendo de su proposito da respuesta a estas peticiones. 
+normalmente estos servidores estan en constanste escucho de peticiones y responde en el moemnto que le entra una. llegan a ser mas ventajosos para aplicacion en computadores 
+que se ejecutan sobr euna misma red. 
 
 ### Limitaciones
 
+Las limitaciones en este taller fueron que a causa de fata de conocimiento extenso en el area que se buscaba desarrollar, lo que consumio muhco tiempo en el desarrollo, 
+a partir de esto causo que el tiempo no fuera sufiecienta para la implementacion correcta de los retos y cause que las limitaciones en estos dos sean muy elevadas llegando 
+a considerarse fatales para el desarollo del taller. 
+
+A parte de esto las limitacionesde extensibilidad son presentes dentro de los ejercicios que se realizaron satisfactoriamente. 
 
 ### Extender
 
+La extensibilidad de este taller, llega aser elevada al mismo tiempo que no lo es, ya que todos los ejercicios y retos estan centrados a cosas especificas, especialmente 
+los ejercicios, por lo que la extensibilidad de esto s muy poca. por otro lado la implemntacion de los retos si llega a contar con mas fondo para ser extensible. 
+la version dle miniSpark se puede extender de muchas maneras para agregarle funcionalidades y no solo las basicas que se buscaba implementar. lo mismo con elotro reto, las 
+funcionales bases que se pedian abren un sin fin de posibilidades para extendr dependiendo del lo que busce el usuario. 
 
 ## Construido con
 -   HTML
